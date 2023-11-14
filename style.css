@@ -1,0 +1,64 @@
+body {
+    background-color: paleturquoise;
+}
+
+p {
+ background-color: yellow;
+}
+
+.special {
+    font-size: 24px;
+}
+
+div .highlight {
+    background-color: green;
+}
+
+[href] {
+    color: blue;
+}
+
+img[src$=".jpg"] {
+    border: solid 2px red;
+}
+
+a:hover {
+    background-color: palevioletred;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+input[type="text"]:focus {
+    border: solid 2px blue;
+}
+
+.warning::before {
+    content: "⚠️";
+}
+
+div p:last-child {
+    background-color: red;
+}
+
+.note::after {
+    content: "🗒️";
+}
+
+a:visited {
+    color: grey;
+}
+
+.quote::first-line {
+    font-weight: bold;
+    background-color: aqua;
+}
+
+li:nth-child(2n+1) {
+    font-weight: bold;
+}
